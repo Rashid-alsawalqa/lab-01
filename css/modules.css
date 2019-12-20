@@ -1,0 +1,62 @@
+.div-0, .div-1, .div-2, .div-3{
+    font-family: 'Lobster', cursive;
+}
+#a {
+    background-color: #dd0707 ;
+}
+#b {
+    background-color: rgb(197, 0, 0) ;
+}
+#c{
+    background-color: rgb(185, 0, 0) ;
+}
+#d{
+    background-color: rgb(168, 11, 11) ;
+}
+#e{
+    background-color: rgb(128, 0, 0) ;
+}
+#f{
+    background-color:  rgb(114, 0, 0);
+}
+#g{
+    background-color: rgb(90, 0, 0);
+}
+#h{
+    background-color: rgb(71, 7, 7);
+}
+#i{
+    background-color:  rgb(54, 20, 20);
+}
+
+@media screen and (max-width: 767px){
+
+    #a {
+        background-color: rgb(34, 61, 23);
+    }
+    #b {
+        background-color: rgb(48, 82, 34);
+    }
+    #c{
+        background-color: rgb(57, 110, 53);
+    }
+    #d{
+        background-color: rgb(57, 151, 48);
+    }
+    #e{
+        background-color: rgb(69, 161, 57);
+    }
+    #f{
+        background-color:  rgb(70, 184, 59);
+    }
+    #g{
+        background-color: rgb(69, 207, 69);
+    }
+    #h{
+        background-color: rgba(103, 219, 74, 0.781);
+    }
+    #i{
+        background-color:  rgb(133, 248, 133);
+    }
+
+} 
