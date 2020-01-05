@@ -1,6 +1,17 @@
-.div-0, .div-1, .div-2, .div-3{
-    font-family: 'Lobster', cursive;
+@media (min-width: 481px) and (max-width: 767px) {
+    main img {
+    height: 350px;
+    width: 350px;
+   }
 }
+@media (min-width: 768px) {
+
+main img {
+    height: 500px;
+    width: 500px;
+   }
+}
+
 #a {
     background-color: #dd0707 ;
 }
@@ -26,7 +37,7 @@
     background-color: rgb(71, 7, 7);
 }
 #i{
-    background-color:  rgb(27, 0, 0);
+    background-color:  rgb(54, 20, 20);
 }
 
 @media screen and (max-width: 767px){

@@ -1,76 +1,109 @@
-main{
-    margin: auto;
-    width: 960px;
-}
+@media  (max-width: 767px) {
+ 
+  main {
+      display: grid;
+      grid-template-columns: 50% 50%;
+      grid-template-rows: 75px 150px 125px 125px 250px 250px 80px;
+      text-align: center;
+      width: 90%;
+      margin: 0 auto;
 
-div{
-   float: left;
-   width: 100%;
-} 
-.div-0{
-    height: 100px;
-    width: 960px;
-}
-.div-1{
-   width: 200px;
-   height: 600px;
-}
-#img-0{
-    height: 600px;
-}
-.div-2{
-   width: 380px;
-   height: 200px;
-}
-.div-3{
-   width: 190px;
-   height: 250px;
-}
-#img-1{
-    width: 380px;
-    height: 200px;
-}
-#img-2{
-    width: 190px;
-   height: 250px;
-}
-.div-4{
-   width: 760px;
-   height: 150px;
-
-}
-@media screen and (max-width: 767px){
-  main{
-    margin: auto;
-    width: 480px;
-  }
-  div,footer ,aside{
-    float: left;
-    width: 100%;
-  } 
-  .div-0{
-    height: 75px;
-    width: 100%;
-  }
-  .div-1{
-    height: 150px;
-    width: 480px;
   }
 
-  .div-2{
-    width: 480px;
-    height: 125px;
+  div {
+      box-sizing: border-box;
   }
-  .div-3{
-    width: 240px;
-    height: 250px;
+
+  #a {
+      grid-column: 1 / span 2;
   }
-  #img-2{
-    height: 250px;
-    width: 240px;
+
+  #b{
+      grid-column: 1 / span 2;
   }
-  .div-4{
-    width: 480px;
-    height: 80px;
-  }  
+
+  .two {
+      grid-column: 1 / span 2;
+
+  }
+
+
+  #i {
+      grid-column: 1 / span 2;
+
+  }
+}
+
+@media (min-width: 768px) {
+
+  main {
+      text-align: center;
+      display: grid;
+      grid-template-columns: 20% 20% 20% 20% 20%;
+      grid-template-rows: 100px 200px 250px 150px;
+      width: 90%;
+      margin: 0 auto;
+
+  }
+
+
+  div {
+      box-sizing: border-box;
+  }
+
+
+  #a {
+      grid-column: 1 / span 5;
+  }
+
+  #b{
+      grid-column: 1 ;
+      grid-row: 2/ span 4;
+
+  }
+
+  #c {
+      grid-column: 2 /span 2 ;
+      grid-row: 2;
+  }
+
+  #d {
+      grid-column: 4 /span 2 ;
+      grid-row: 2;
+  }
+
+
+  
+  #e {
+      grid-row: 3;
+      grid-column: 2 ;
+  
+  }
+
+  #f{
+      grid-row: 3;
+      grid-column: 3 ;
+
+
+  }
+
+  #g{
+      grid-row: 3;
+      grid-column: 4  ;
+
+  }
+
+  #h{
+      grid-row: 3;
+      grid-column: 5 ;
+
+  }
+
+
+  #i{
+      grid-column: 2 /span 4 ;
+      grid-row : 4  ; 
+  }
+
+
 }
