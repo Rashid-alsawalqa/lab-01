@@ -40,37 +40,37 @@ div{
 
 }
 @media screen and (max-width: 767px){
-main{
+  main{
     margin: auto;
     width: 480px;
-}
-div,footer ,aside{
+  }
+  div,footer ,aside{
     float: left;
     width: 100%;
-} 
-.div-0{
+  } 
+  .div-0{
     height: 75px;
     width: 100%;
-}
-.div-1{
+  }
+  .div-1{
     height: 150px;
     width: 480px;
-}
+  }
 
-.div-2{
+  .div-2{
     width: 480px;
     height: 125px;
-}
-.div-3{
+  }
+  .div-3{
     width: 240px;
     height: 250px;
-}
-#img-2{
+  }
+  #img-2{
     height: 250px;
     width: 240px;
-}
-.div-4{
+  }
+  .div-4{
     width: 480px;
     height: 80px;
-}  
+  }  
 }
